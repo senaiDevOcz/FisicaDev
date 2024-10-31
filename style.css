@@ -191,13 +191,14 @@ nav {
 }
 
 .footerItem {
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   font-size: 1.5rem;
 }
 
 .footerItem:hover {
-  color: #777777;
+  color: #ff0404;
+}
 }
 
 /* Btns Hover */
