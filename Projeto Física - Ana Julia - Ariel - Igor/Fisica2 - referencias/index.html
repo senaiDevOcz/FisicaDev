@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Esfera do Saber</title>
+    
+</head>
+
+<header>
+        
+    <select class="selecionar" name="selecao" id="selecao" required="required" onchange="redirectToPage()">
+        <option value="referencias">REFERÊNCIAS</option>
+        <option value="pagina">PÁGINA INICIAL</option>
+        <option value="questionario">QUESTIONÁRIO</option>
+        <option value="extras">CONTEÚDOS COMPLEMENTARES</option>
+        <option value="equacoes">EQUAÇÕES</option>
+
+    </select>
+
+    <script>
+        function redirectToPage() {
+            const selectElement = document.getElementById("selecao");
+            const selectedValue = selectElement.value;
+           
+            let url;
+            switch (selectedValue) {
+                case "pagina":
+                    url = "http://127.0.0.1:5501/index.html";
+                    break;
+                case "referencias":
+                    url = "http://127.0.0.1:5502/index.html";
+                    break;
+                case "questionario":
+                    url = "http://127.0.0.1:5505/index.html";
+                    break;
+                case "extras":
+                    url = "http://127.0.0.1:5503/index.html";
+                    break;
+                case "equacoes":
+                    url = "http://127.0.0.1:5504/index.html";
+                    break;
+                default:
+                    return; // Se não houver seleção válida, não faz nada
+            }
+           
+            window.location.href = url; // Redireciona para a URL
+        }
+        </script>
+            
+    <img src="img/logo.png" alt="Logo" class="logo1">
+    <img src="img/senai-logo.png" alt="Logo" class="logo2">
+    <img src="img/sesi-logo.png" alt="Logo" class="logo3">
+
+    <ul>
+        <li><b>ESPELHOS ESFÉRICOS - CONCÂVOS E CONVEXOS</b></li>       
+
+    </ul>
+</header>
+
+<body>
+            
+        <h1><b>Referências:</b></h1> <br>
+
+        <p>DA SILVA, D. C. M. Reflexão em espelhos esféricos. Disponível em: https://www.preparaenem.com/fisica/reflexao-espelhos-esfericos.htm. Acesso em: 25 set. 2024.
+        </p>    <br>
+        
+        <p> DOS ANJOS, T. A. Espelhos Côncavos e Convexos. Disponível em: https://mundoeducacao.uol.com.br/fisica/espelhos-concavos-convexos.htm. Acesso em: 25 set. 2024.
+        </p> <br>
+
+        <p>WIKIPEDIA CONTRIBUTORS. Espelho esférico. Disponível em: https://pt.wikipedia.org/w/index.php?title=Espelho_esf%C3%A9rico&oldid=68132067.
+        </p> <br>
+
+        <p>História do espelho: Saiba como surgiu! - JJI Vidros. Disponível em: https://jjividros.com.br/noticias/post/como-surgiu-o-espelho/. Acesso em: 25 set. 2024.
+        </p> <br>
+
+        <p>PAPEL, M. NO. Espelhos esféricos - Espelhos côncavos e convexos. Disponível em: https://www.youtube.com/watch?v=SYgrthl-E80. Acesso em: 25 set. 2024.
+        </p> <br>
+
+        <p>FISICATOTAL. Óptica | Espelhos esféricos (côncavo e convexo) | ENEM e vestibulares. Disponível em: https://www.youtube.com/watch?v=9Qs6fKLJeYo. Acesso em: 25 set. 2024.
+        </p> <br>
+
+        <p>Espelhos Esféricos De: Lucas Gonçalves TAM2. Disponível em: https://pt.quizur.com/trivia/espelhos-esfericos-de-lucas-goncalves-tam2-KvcB. Acesso em: 25 set. 2024.
+        </p> <br>
+
+        <p>Espelhos Esféricos E Suas Características. Disponível em: https://pt.quizur.com/trivia/espelhos-esfericos-e-suas-caracteristicas-KTU9. Acesso em: 25 set. 2024.
+        </p> <br>
+
+        <p>Espelhos Côncavo E Convexo. Disponível em: https://pt.quizur.com/trivia/espelhos-concavo-e-convexo-O5Ax. Acesso em: 25 set. 2024.
+        </p> <br>
+</body>
+            
+    <footer>
+        <img src="img/logo.png" alt="Logo" class="logo1">
+        <img src="img/senai-logo.png" alt="Logo" class="logo2">
+        <img src="img/sesi-logo.png" alt="Logo" class="logo3">
+
+        <ul>
+            <li><a href="http://127.0.0.1:5501/index.html">PÁGINA INICIAL</a></li>
+            <li><a href="http://127.0.0.1:5505/index.html">QUESTIONÁRIO</a></li>
+            <li><a href="http://127.0.0.1:5503/index.html">CONTEÚDOS COMPLEMENTARES</a></li>
+            <li><a href="http://127.0.0.1:5504/index.html">EQUAÇÕES</a></li>
+
+        </ul>
+    </footer>
+
+</html>
