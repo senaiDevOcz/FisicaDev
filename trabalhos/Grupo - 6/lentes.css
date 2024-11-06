@@ -1,0 +1,181 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #98dbff;
+  font-family: "Times New Roman", Times, serif;
+}
+
+header {
+  background-color: #125f8c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  justify-content: space-between;
+  margin-right: 12px;
+  font-size: 120%;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: border 0.3s ease;
+}
+
+nav a:hover {
+  border: 2px solid white;
+}
+
+main {
+  color: black;
+  font-size: 200%;
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  text-align: right;
+  font-size: 120%;
+  margin-right: 20%;
+}
+
+.principal {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 760px;
+  height: 500px;
+}
+
+.video {
+  width: 600px;
+  height: 500px;
+}
+
+.conteudo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #d4e3ec;
+  color: #125f8c;
+  margin: 0;
+  padding: 0;
+  height: 14vh;
+}
+
+.conteudo h1 {
+  text-align: center;
+}
+
+h4 {
+  color: #125f8c;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 120%;
+  margin: 10px;
+}
+
+p {
+  color: black;
+  margin: 10px;
+}
+
+.tabela {
+  color: black;
+  text-align: left;
+  margin: 30px;
+  font-size: 180%;
+}
+
+.comparativa {
+  width: 700px;
+  margin: 10px;
+}
+
+li {
+  color: black;
+  margin: 1%;
+}
+
+main {
+  padding: 8px;
+}
+
+button {
+  padding: 5px 5px;
+  background-color: #125f8c;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: Georgia;
+  transition:  0.3s, color 0.3s;
+}
+
+.Comentario {
+  font-size: 10%;
+  height: 610px;
+  width: 90%;
+  max-width: 610px;
+}
+
+.botc {
+  padding: 5px 5px;
+  background-color: #125f8c;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-family: Georgia;
+}
+.grande {
+  display: flex;
+}
+.lentes {
+  justify-content: center;
+}
+
+.conteudo {
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+footer {
+  background-color: #125f8c;
+  color: white;
+  padding: 5px;
+  height: 180px;
+  justify-content: center;
+  text-align: center;
+}
+
+.rodape1 {
+  list-style: none;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+
+.rodape2 {
+  list-style: none;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
