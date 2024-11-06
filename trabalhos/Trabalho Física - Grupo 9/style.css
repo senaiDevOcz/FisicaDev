@@ -1,0 +1,348 @@
+body {
+  background-color: #ffffffcb;
+  margin: 0;
+  color: rgb(0, 0, 0);
+}
+
+header {
+  background-color: #5a1919;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.Logo {
+  height: 70px;
+}
+
+div.pesquisa {
+  justify-content: flex-start;
+}
+
+input {
+  width: 400px;
+  border-radius: 20px;
+  height: 30px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  font-size: 16px;
+}
+
+nav ul {
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  background-color: #4d0e0e;
+  padding: 20px 30px;
+}
+
+main {
+  margin: 30px;
+}
+.CameraeFilmadora {
+  display: flex;
+  /* width: 300px;
+  height: 300px; */
+  justify-content: space-evenly;
+}
+
+.Lentes{
+    display: flex;
+    justify-content: space-around;
+}
+
+hr{
+    /* width: 80%; */
+    height: 4px;
+    background-color:#5a1919;
+    border: none;
+    
+}
+.Funcionamento{
+    display: flex;
+}
+
+.Convergente{
+    display: flex;
+}
+
+
+.convediv {
+  display: flex;
+  flex-direction: column;
+}
+
+.divergente{
+  display: flex;
+}
+.cameraescura{
+  justify-content:space-between;
+  display: flex;
+}
+
+.perguntas{
+  text-align: center;
+  color: #5a1919;
+}
+
+.duvidas{
+  text-align: center;
+}
+
+
+.cadastro{
+  margin: 10px 400px;
+}
+header.cadastrar-se{
+  background-color: #5a1919;
+  margin: 0;
+  padding: 50px;
+}
+footer{
+  background-color: #5a1919;
+  margin: 0;
+  padding: 50px;
+}
+
+header.duvida{
+  background-color: #5a1919;
+  margin: 0;
+  padding: 50px;
+}
+
+.titulo{
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+   
+  .barra-comprida{
+      width: 100%;
+      height: 8px;
+      background-color: #390101;
+      margin-top: 20px;
+  }
+   
+  .textoum{
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  .lista{
+      
+      font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+     
+  }
+   
+  .titulodois{
+   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   font-size: smaller;
+  }
+   
+  .textodois{
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+   
+  .minitexto{
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 40px;
+  margin-top: 20px;
+  }
+   
+  .textoimagem{
+      display:flex;
+  }
+  /*----------------------------------------------------------------*/
+   
+   
+   
+  .numero {
+      width: 30px; /* Largura do quadrado */
+      height: 30px; /* Altura do quadrado */
+      background-color: #400202; /* Cor de fundo */
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
+      font-weight: bold;
+  }
+   
+  .primeirasfotos{
+      display: flex;
+      justify-content: center;
+  }
+   
+  .img{
+  height: 200px;
+  width: 400px;
+  }
+   
+  .segundasfotos{
+      display: flex;
+      justify-content: center;
+   
+  }
+
+  .titulotres{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: smaller;
+    }
+     
+    .textotres{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+     
+    .listadois{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    /*----------------------------------------------------------------------------------------------------------------------------*/
+     
+    .iniciocatorze{
+        font-size: medium;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+     
+    .listacatorze{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+     
+    .fotocartorze{
+      display: flex;
+      justify-content: center;
+    }
+     
+    .barracompridacatorze{
+        width: 100%;
+        height: 7px;
+        background-color: #390101;
+        margin-top: 20px;
+    }
+     
+    .tituloquatro{
+     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: smaller;
+    }
+     
+    .textolentes{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+     
+    .listalentes{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .final{
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .infografico{
+      margin:30px 110px;
+    }
+
+    .questionario{
+      align-items: center;
+    }
+
+    
+
+  .site{
+    background-color: #5a1919;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    color: white;
+    justify-content: space-between;
+  }
+  .botao{
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  }
+  p{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+
+  h4{
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  
+
+  /* Estilo da imagem em miniatura */
+  .thumbnail {
+    width: 250px;
+  
+    cursor: pointer;
+    transition: transform 0.2s;
+    padding: 20px 110px 0px;
+  }
+
+  /* Estilo para o fundo da imagem ampliada */
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow-y: auto; /* Permitir rolagem vertical */
+    justify-content: center;
+    align-items: flex-start; /* Alinhar a imagem ao topo */
+  }
+
+  /* Estilo da imagem ampliada */
+  .modal-content {
+    width: 60%; /* Ocupa 80% da largura da tela */
+    margin-top: 20px;
+  }
+
+  /* Fechar o modal */
+  .close {
+    position: fixed;
+    top: 20px;
+    right: 35px;
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    z-index: 1; /* Mantém o botão sobre a imagem */
+  }
+
+  .formulario{
+    padding: 10px 650px;
+  }
+ 
+  .textoinfo{
+    display: block;
+  }
+
+  .mapaevideo{
+    display: block;
+  }
+
+  .texto{
+    padding: 0px 110px;
+  }
