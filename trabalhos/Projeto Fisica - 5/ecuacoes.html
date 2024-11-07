@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles-ecuacoes.css">
+    <title>Esfera do Saber</title>
+    
+</head>
+
+<header>
+        
+    <select class="selecionar" name="selecao" id="selecao" required="required" onchange="redirectToPage()">
+        <option value="equacoes">EQUAÇÕES</option>
+        <option value="pagina">PÁGINA INICIAL</option>
+        <option value="referencias">REFERÊNCIAS</option>
+        <option value="questionario">QUESTIONÁRIO</option>
+        <option value="extras">CONTEÚDOS COMPLEMENTARES</option>
+
+    </select>
+
+    <script>
+        function redirectToPage() {
+            const selectElement = document.getElementById("selecao");
+            const selectedValue = selectElement.value;
+           
+            let url;
+            switch (selectedValue) {
+                case "pagina":
+                    url = "http://127.0.0.1:5501/inicio.html";
+                    break;
+                case "referencias":
+                    url = "http://127.0.0.1:5502/referencias.html";
+                    break;
+                case "questionario":
+                    url = "http://127.0.0.1:5505/questoes.html";
+                    break;
+                case "extras":
+                    url = "http://127.0.0.1:5503/extras.html";
+                    break;
+                case "equacoes":
+                    url = "http://127.0.0.1:5504/ecuacoes.html";
+                    break;
+                default:
+                    return; // Se não houver seleção válida, não faz nada
+            }
+           
+            window.location.href = url; // Redireciona para a URL
+        }
+        </script>
+            
+    <img src="img/logo.png" alt="Logo" class="logo1">
+    <img src="img/senai-logo.png" alt="Logo" class="logo2">
+    <img src="img/sesi-logo.png" alt="Logo" class="logo3">
+
+    <ul>
+        <li><b>ESPELHOS ESFÉRICOS - CONCÂVOS E CONVEXOS</b></li>       
+
+    </ul>
+</header>
+
+<body>
+            
+        <h1><b>EQUAÇÕES</b></h1><br>
+        <h2>Distância focal e raio de curvatura</h2> 
+
+<p>Há uma fórmula válida para todos os espelhos esféricos que relaciona a distância focal ao raio de curvatura, confira:</p>
+
+        <div>      
+        <img src="img/foto1.1.png" alt="foto1" class="foto1">
+    </div> 
+        <p>f - distância focal</p>
+            <p>R - raio de curvatura</p><br><hr>
+
+            <h2>Equação dos pontos conjugados ou Equação de Gauss</h2> 
+            <p>A equação dos pontos conjugados relaciona a distância focal (f), a posição do objeto (p) e a posição da imagem (p'), ambas medidas em relação ao vértice do espelho, confira:</p>
+            <div>      
+                <img src="img/foto2.1.png" alt="foto1" class="foto1">
+            </div> 
+
+            <p>f - distância focal</p>
+            <p>p - posição do objeto</p>
+            <p>p' - posição da imagem</p><br><hr>
+
+            <h2>Equação do aumento linear transversal</h2>
+            <p>Aumento linear transversal é a grandeza adimensional (sem unidade de medida) que mede a relação entre o tamanho do objeto e o de sua imagem conjugada por espelhos esféricos. Existem três formas diferentes de calcularmos o aumento linear transversal, confira:</p>
+            <div>      
+                <img src="img/foto3.1.png" alt="foto1" class="foto1">
+            </div> 
+
+            <p>A - aumento linear transversal</p>
+            <p>i - tamanho da imagem</p>
+            <p>o - tamanho do objeto</p>
+            <p>f - distância focal</p><br><hr>
+
+            <h2>Elementos de um espelho esférico</h2>
+            <p>Nos espelhos esféricos, côncavo e convexo, há alguns elementos geométricos importantes bastante utilizados como mostra a figura de uma calota esférica.</p>
+            <br><div>      
+                <img src="img/foto4.1.png" alt="foto2" class="foto2">
+            </div> <br>
+
+            <p><strong>Centro de curvatura (C):</strong> é o centro da esfera que originou a calota</p>
+            <p><strong>Vértice do espelho (V): </strong>é o polo da calota</p>
+            <p><strong>Eixo principal:</strong> é a reta e.p. definida pelo centro de curvatura C e pelo vértice V do espelho</p>
+            <p><strong>Raio de curvatura:</strong> é o raio R da superfície esférica que gerou a calota. Também é o raio da calota. Na figura: R = CA = CV = CB</p><br><hr>
+
+            <h2>Elementos geométricos dos espelhos esféricos</h2>
+            <p>Os elementos geométricos dos espelhos esféricos são bastante úteis para o seu estudo analítico, por meio da óptica geométrica. Independente dos formatos do espelho esférico (côncavo ou convexo), esses elementos são iguais para ambos.</p>
+
+            <br><div>      
+                <img src="img/foto5.1.png" alt="foto2" class="foto2">
+            </div> <br>
+
+           <br> <p>Vértice (V): O vértice marca a região central dos espelhos esféricos. É sobre esse ponto que traçamos o eixo principal (ou eixo de simetria) do espelho. Qualquer raio de luz que incida sobre o vértice de um espelho esférico é refletido com o mesmo ângulo de incidência, do mesmo modo que um espelho plano o faria.</p>
+           <br> <p>Centro de curvatura (C): O centro de curvatura dos espelhos esféricos é o ponto médio da calota esférica que dá origem ao espelho, portanto, é igual ao raio dessa esfera. Qualquer raio de luz que incida sobre o centro de curvatura de um espelho esférico deve ser refletido sobre si mesmo, de modo que os raios de luz incidente e refletido percorram o mesmo caminho.</p>
+           <br> <p>Raio de curvatura (R): O raio de curvatura mede a distância entre o vértice do espelho e o seu centro de curvatura, é denotado pela letra R e é comumente medido em metros.</p>
+           <br> <P>Foco (F): O foco é o ponto em que raios de luz paralelos convergem após serem refletidos por um espelho côncavo. No caso dos espelhos convexos, os raios de luz refletidos divergem de sua superfície e, por isso, são os prolongamentos dos raios de luz que se cruzam, em um ponto localizado “atrás” da superfície desses espelhos. Por esse motivo, dizemos que o foco dos espelhos convexos é virtual, enquanto o foco dos espelhos côncavos é real.</P>
+           <br> <p>Distância focal (f): A distância focal mede a posição do foco em relação ao vértice dos espelhos esféricos, além disso, raios de luz paralelos que incidem sobre espelhos côncavos são refletidos sobre o ponto focal. No caso dos espelhos convexos, são os prolongamentos dos raios de luz que se cruzam em seu foco, localizado atrás do espelho, chamado de foco virtual.</p>
+<br>
+
+</body>
+            
+    <footer>
+        <img src="img/logo.png" alt="Logo" class="logo1">
+        <img src="img/senai-logo.png" alt="Logo" class="logo2">
+        <img src="img/sesi-logo.png" alt="Logo" class="logo3">
+
+        <ul>
+            <li><a href="referencias.html">REFERÊNCIAS</a></li>
+            <li><a href="questoes.html">QUESTIONÁRIO</a></li>
+            <li><a href="extras.html">CONTEÚDOS COMPLEMENTARES</a></li>
+            <li><a href="ecuacoes.html">EQUAÇÕES</a></li>
+
+        </ul>
+    </footer>
+
+</html>
