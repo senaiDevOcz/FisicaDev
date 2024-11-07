@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles-questoes.css">
+    <title>Esfera do Saber</title>
+
+</head>
+
+<header>
+
+    <select class="selecionar" name="selecao" id="selecao" required="required" onchange="redirectToPage()">
+        <option value="questionario">QUESTIONÁRIO</option>
+        <option value="pagina">PÁGINA INICIAL</option>
+        <option value="referencias">REFERÊNCIAS</option>
+        <option value="extras">CONTEÚDOS COMPLEMENTARES</option>
+        <option value="equacoes">EQUAÇÕES</option>
+
+    </select>
+
+    <script>
+        function redirectToPage() {
+            const selectElement = document.getElementById("selecao");
+            const selectedValue = selectElement.value;
+
+            let url;
+            switch (selectedValue) {
+                case "pagina":
+                    url = "http://127.0.0.1:5501/inicio.html#";
+                    break;
+                case "referencias":
+                    url = "http://127.0.0.1:5502/referencias.html";
+                    break;
+                case "questionario":
+                    url = "http://127.0.0.1:5505/questoes.html";
+                    break;
+                case "extras":
+                    url = "http://127.0.0.1:5503/extras.html";
+                    break;
+                case "equacoes":
+                    url = "http://127.0.0.1:5504/ecuacoes.html";
+                    break;
+                default:
+                    return; // Se não houver seleção válida, não faz nada
+            }
+
+            window.location.href = url; // Redireciona para a URL
+        }
+    </script>
+
+    <img src="img/logo.png" alt="Logo" class="logo1">
+    <img src="img/senai-logo.png" alt="Logo" class="logo2">
+    <img src="img/sesi-logo.png" alt="Logo" class="logo3">
+
+    <ul>
+        <li><b>ESPELHOS ESFÉRICOS - CONCÂVOS E CONVEXOS</b></li>
+
+    </ul>
+</header>
+
+
+<ul>
+    <h2>ESPELHOS ESFÉRICOS - CONCÂVOS E CONVEXOS</h2>
+</ul>
+</header>
+<h3>Questão 1</h3>
+<p>Um objeto realiza movimento harmônico simples, de amplitude e frequência em frente a um espelho esférico convexo,
+    deslocando-se sobre o eixo principal do espelho. O movimento da imagem desse objeto, observado no espelho,
+    apresentará, em relação ao movimento do objeto,</p>
+<p>a) mesma frequência e maior amplitude.</p>
+<p>b) virtual e independente da localização do objeto.</p>
+<p>c) virtual e o objeto se encontra entre o espelho e seu foco principal.</p>
+<p>d) real e o objeto se encontra entre o espelho e seu foco principal.</p>
+<p>e) real e independente da localização do objeto.</p>
+<hr>
+<h3>Questão 2</h3>
+<p>(Famerp) No dia 20 de junho de 1969, o ser humano caminhou pela primeira vez na superfície lunar. Em uma das fotos
+    registradas nesse dia pode-se ver uma imagem direita e menor formada pela superfície convexa do visor do capacete do
+    astronauta Edwin Aldrin, que funciona como um espelho.</p>
+<p> Essa imagem é:</p>
+<p>a)real e o objeto se encontra além do centro de curvatura do espelho.</p>
+<p>b)virtual e independe da localização do objeto.</p>
+<p>c)virtual e o objeto se encontra entre o espelho e seu foco principal.</p>
+<p>d) real e o objeto se encontra entre o espelho e seu foco principal.</p>
+<p>e) real e independe da localização do objeto.</p>
+<hr>
+<h3>Questão 3</h3>
+<p>O espelho bucal, utilizado por dentistas, é um instrumento que pode ser feito com um espelho plano ou esférico.</p>
+<p>Um dentista, a fim de obter uma imagem ampliada de um dente específico, deve utilizar um espelho bucal:</p>
+<p>a)côncavo, sendo colocado a uma distância do dente menor que a distância focal.</p>
+<p>b)côncavo, sendo colocado a uma distância do dente entre o foco e o centro de curvatura.</p>
+<p>c)convexo, sendo colocado a uma distância do dente entre o foco e o centro de curvatura.</p>
+<p>d)plano.</p>
+<p>e)convexo, sendo colocado a uma distância do dente menor que a distância focal.</p>
+<hr>
+<h3>Questão 4</h3>
+<p>A figura apresenta a obra de litogravura "Mão com esfera refletora" (1935), do artista gráfico holandês Maurits
+    Cornelis Escher (1898-1972), que se representou por uma imagem refletida em uma esfera.</p>
+<p>Sendo o artista o objeto refletido na superfície dessa esfera, podemos afirmar corretamente, sobre essa imagem
+    formada, que ela:
+<p>
+<p>a)assemelha à classificação exata de uma imagem observada em uma lente delgada convergente.</p>
+<p>b)assemelha à classificação exata de uma imagem observada em um espelho côncavo.</p>
+<p>c)classifica em menor, direita e real.</p>
+<p>d)posiciona entre o foco e o vértice da face refletora.</p>
+<p>e)posiciona entre o raio de curvatura e o vértice da face refletora.</p>
+<hr><br>
+<h2>Questões resolvidas</h2><br>
+<p>Questão 1. Um objeto realiza movimento harmônico simples, de amplitude e frequência em frente a um espelho esférico
+    convexo, deslocando-se sobre o eixo principal do espelho. O movimento da imagem desse objeto, observado no espelho,
+    apresentará, em relação ao movimento do objeto,</p>
+<p class="blue">d) mesma frequência e menor amplitude.</p class="blue">
+<p class="blue">Resposta: D</p class="blue">
+
+<p>Como o espelho convexo conjuga uma imagem menor e virtual, o movimento descrito pela imagem terá menor amplitude e
+    mesma frequência do objeto.</p>
+<hr>
+
+<p>Questão 2. (Famerp) No dia 20 de junho de 1969, o ser humano caminhou pela primeira vez na superfície lunar. Em uma
+    das fotos registradas nesse dia pode-se ver uma imagem direita e menor formada pela superfície convexa do visor do
+    capacete do astronauta Edwin Aldrin, que funciona como um espelho.</p>
+<p>Essa imagem é:</p>
+<p class="blue"> b) virtual e independe da localização do objeto.</p class="blue">
+<p class="blue">Resposta: B</p class="blue">
+<p>A imagem de um espelho convexo é sempre menor, direita e virtual sendo o foco principal também virtual, independendo
+    de onde o objeto está colocado. </p>
+<hr>
+<p>Questão 3. (Mackenzie) O espelho bucal, utilizado por dentistas, é um instrumento que pode ser feito com um espelho
+    plano ou esférico</p>
+<p>Um dentista, a fim de obter uma imagem ampliada de um dente específico, deve utilizar um espelho bucal</p>
+<p class="blue"> a) côncavo, sendo colocado a uma distância do dente menor que a distância focal.</p class="blue">
+<p class="blue">Resposta: A</p class="blue">
+<p>Como a imagem é virtual e maior, o espelho usado tem que ser côncavo, com o objeto colocado entre o foco e o vértice
+    do espelho como ilustrado na figura.</p>
+<hr>
+<p>Questão 4. (Fatec) A figura apresenta a obra de litogravura “Mão com esfera refletora” (1935), do artista gráfico
+    holandês Maurits Cornelis Escher (1898–1972), que se representou por uma imagem refletida em uma esfera.</p>
+<p>Sendo o artista o objeto refletido na superfície dessa esfera, podemos afirmar corretamente, sobre essa imagem
+    formada, que se</p>
+<p class="blue">d) posiciona entre o foco e o vértice da face refletora.</p class="blue">
+<p class="blue">Resposta: D</p class="blue">
+<p>A esfera é um espelho esférico convexo, portanto a imagem de um objeto real é sempre: Virtual, direita, menor que o
+    objeto, situada entre o foco e o vértice.</p>
+
+<footer>
+    <img src="img/logo.png" alt="Logo" class="logo1">
+    <img src="img/senai-logo.png" alt="Logo" class="logo2">
+    <img src="img/sesi-logo.png" alt="Logo" class="logo3">
+
+    <ul>
+        <li><a href="referencias.html">REFERÊNCIAS</a></li>
+        <li><a href="questoes.html">QUESTIONÁRIO</a></li>
+        <li><a href="extras.html">CONTEÚDOS COMPLEMENTARES</a></li>
+        <li><a href="ecuacoes.html">EQUAÇÕES</a></li>
+
+    </ul>
+</footer>

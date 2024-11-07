@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles-inicio.css">
+    <title>Esfera do Saber</title>
+    
+</head>
+
+<header>
+        
+    <select class="selecionar" name="selecao" id="selecao" required="required" onchange="redirectToPage()">
+        <option value="pagina">PÁGINA INICIAL</option>
+        <option value="referencias">REFERÊNCIAS</option>
+        <option value="questionario">QUESTIONÁRIO</option>
+        <option value="extras">CONTEÚDOS COMPLEMENTARES</option>
+        <option value="equacoes">EQUAÇÕES</option>
+
+    </select>
+
+    <script>
+        function redirectToPage() {
+            const selectElement = document.getElementById("selecao");
+            const selectedValue = selectElement.value;
+           
+            let url;
+            switch (selectedValue) {
+                case "pagina":
+                    url = "http://127.0.0.1:5501/inicio.html";
+                    break;
+                case "referencias":
+                    url = "http://127.0.0.1:5502/referencias.html";
+                    break;
+                case "questionario":
+                    url = "http://127.0.0.1:5505/questoes.html";
+                    break;
+                case "extras":
+                    url = "http://127.0.0.1:5503/extras.html";
+                    break;
+                case "equacoes":
+                    url = "http://127.0.0.1:5504/ecuacoes.html";
+                    break;
+                default:
+                    return; // Se não houver seleção válida, não faz nada
+            }
+           
+            window.location.href = url; // Redireciona para a URL
+        }
+        </script>
+            
+    <img src="img/logo.png" alt="Logo" class="logo1">
+    <img src="img/senai-logo.png" alt="Logo" class="logo2">
+    <img src="img/sesi-logo.png" alt="Logo" class="logo3">
+
+    <ul>
+        <li><b>ESPELHOS ESFÉRICOS - CONCÂVOS E CONVEXOS</b></li>       
+
+    </ul>
+</header>
+
+<body>
+            
+        <h1><b>ESPELHOS ESFÉRICOS- CONCÂVOS E CONVEXOS</b></h1> 
+        <h3>Espelhos esféricos, sistemas ópticos com base em calotas polidas e refletoras, que refletem a luz em imagens tanto reais como virtuais. </h3> <br>
+        <h2>DEFINIÇÃO</h2> 
+
+        <div> 
+        <p>Um espelho esférico é um elemento óptico refletor que tem a forma de uma seção esférica. Pode ser côncavo ou convexo, dependendo da face onde se encontra a superfície refletora.  No primeiro caso a superfície refletora é interna e no segundo externa. Os espelhos esféricos obedecem às mesmas leis de reflexão da luz dos espelhos planos dá óptica geométrica. 
+        </p>     
+
+        <img src="img/foto1.png" alt="foto1" class="foto1">
+    </div> 
+        <p1>https://brasilescola.uol.com.br/fisica/espelhos-esfericos.htm</p1>
+     
+<hr>
+
+        <h2>Espelho Côncavo</h2>
+            <p>Para a formação de imagens no espelho côncavo existe uma dependência da posição do objeto sobre o eixo principal. Essas observações são feitas a partir das definições: 
+            </p><br>
+        
+            <div 2> 
+                    <img src="img/foto2.png" alt="foto2" class="foto2">
+
+                <p>Se a imagem pertencer ao mesmo semiplano do objeto, essa imagem é direita. Se isso não acontecer, a imagem é invertida em relação ao objeto.  A imagem será real se for formada pelos raios refletidos e será virtual se for formada pelo prolongamento desses raios refletidos. Com isso, observa-se que as características da imagem formada pelo espelho côncavo são real, menor e invertida. 
+                
+            </p> 
+        </div 2>
+        <p2>https://mundoeducacao.uol.com.br/fisica/espelhos-concavos-convexos.htm</p2>
+
+        <h2>Espelho Convexo</h2>
+        <p>A imagem do espelho convexo é sempre formada por um objeto colocado na frente do espelho. A imagem formada será sempre virtual, menor e direita. 
+        </p>
+        <div 3>
+            <img src="img/foto3.png" alt="foto2" class="foto2">
+            <p>Os espelhos convexos são utilizados nos espelhos retrovisores de carros e também em outras situações nas quais se deseje ter um campo maior de visibilidade do que nos espelhos planos. </p>
+        </div 3>
+        <p2>https://mundoeducacao.uol.com.br/fisica/espelhos-concavos-convexos.htm</p2>
+
+    <hr>
+
+        <h2>ORIGEM</h2>
+        <p>Os primeiros espelhos surgiram há cerca de 5 mil anos na antiga Suméria, feitos de bronze polido, mas com reflexos pouco nítidos. A inspiração veio da observação da imagem na água. No início do século 14, artesãos de Veneza descobriram que o vidro refletia melhor e desenvolveram uma camada refletora de estanho e mercúrio, criando espelhos de alta qualidade que dominaram o mercado. Contudo, sua produção era cara. Somente no século 19, novas técnicas usando prata química tornaram o processo mais seguro e acessível, popularizando os espelhos.</p>
+
+    <hr>
+
+        <h2>APLICAÇÃO</h2>
+
+        <div 4>
+            <img src="img/foto4.png" alt="foto2" class="foto2">
+            <p>No nosso cotidiano nos deparamos com diversas situações em uso de espelhos, onde frequentemente, é utilizado em retrovisores de carros, para pentear os cabelos, no elevador etc. Entretanto, os momentos que utilizamos o espelho côncavos é quando usamos o telescópio, ver detalhes no rosto, seja para retocar maquiagem ou barbeá-lo. Já o espelho convexo é utilizado nos espelhos como, retrovisores de carros e em outras situações nas quais se deseje ter um campo maior de visibilidade do que nos espelhos planos. </p>
+        </div 4>
+        <p2> https://www.preparaenem.com/fisica/reflexao-espelhos-esfericos.htm</p2>
+        <br>
+        <hr>
+
+
+</body>
+            
+    <footer>
+        <img src="img/logo.png" alt="Logo" class="logo1">
+        <img src="img/senai-logo.png" alt="Logo" class="logo2">
+        <img src="img/sesi-logo.png" alt="Logo" class="logo3">
+
+        <ul>
+            <li><a href="referencias.html">REFERÊNCIAS</a></li>
+            <li><a href="questoes.html">QUESTIONÁRIO</a></li>
+            <li><a href="extras.html">CONTEÚDOS COMPLEMENTARES</a></li>
+            <li><a href="ecuacoes.html">EQUAÇÕES</a></li>
+
+        </ul>
+    </footer>
+
+</html>
