@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curiosidades</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #13072e; /* Fundo escuro */
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between; /* Espaço entre os elementos */
+            align-items: center; /* Alinha verticalmente os itens no centro */
+            background-color: #161a38; /* Cor de fundo do cabeçalho */
+            padding:  1rem 2rem;; /* Padding do cabeçalho */
+            height: 64px;
+        }
+        
+        .menu-icon {
+            font-size: 24px; /* Tamanho do ícone */
+            color: #FFFFFF; /* Cor do ícone */
+            cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+            margin-right: 10px; /* Margem à direita do ícone */
+        }
+
+        header .logo {
+            width: 80px; /* Largura do logo */
+            height: auto;
+            margin-left: 15px;
+        }
+        
+        header .search-container {
+            display: flex; /* Flexbox para alinhar a barra de pesquisa e o ícone */
+            align-items: center;
+        }
+        
+        header .profile-icon {
+            width: 40px; /* Largura do ícone de perfil */
+            height: auto;
+            margin-left: 10px; /* Margem entre a barra de pesquisa e o ícone de perfil */
+        }
+        
+        header input[type="text"] {
+            padding: 5px; /* Padding da barra de pesquisa */
+            border-radius: 5px; /* Bordas arredondadas */
+            border: none; /* Sem borda */
+            margin-left: 10px; /* Margem à esquerda do campo de pesquisa */
+        }
+
+        h1 {
+            text-align: left; /* Alinhado à esquerda */
+            margin-top: 20px; /* Margem acima do título */
+            margin-left: 20px; /* Margem à esquerda */
+        }
+
+        .info-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 100px); /* Altura ajustada para caber no layout */
+        }
+
+        .info-box {
+            width: 300px; /* Tamanho dos quadrados de informação */
+            height: 200px; 
+            margin: 20px;
+            background: linear-gradient(to bottom, #3f2182, #3f2182, #13072e); 
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .info-box:nth-child(odd) {
+            transform: translateY(-20px); 
+        }
+
+        .info-box:nth-child(even) {
+            transform: translateY(20px); 
+        }
+
+        .info-box h3 {
+            margin-top: 0;
+        }
+
+        .next-button-container {
+            position: absolute; /* Fixa o botão na parte inferior esquerda */
+            bottom: 20px; 
+            left: 20px; 
+        }
+
+        .next-button {
+            padding: 10px 20px;
+            background-color: #ffffff; 
+            color: rgb(0, 0, 0); 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+        }
+
+        .next-button:hover {
+            background-color: #45a049; /* Verde mais escuro ao passar o mouse */
+        }
+
+        .linha-branca {
+            height: 2px; /* Altura da linha */
+            background-color: white; /* Cor da linha */
+            margin-top: -2px; /* Remove a margem entre o cabeçalho e a linha */
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div style="display:flex; align-items:center;"> <!-- Agrupando menu e logo -->
+          <div class="menu-icon">&#9776;</div> <!-- Ícone de menu -->
+          <img src="img 1.png" alt="Logo" class="logo">
+          <p style="margin-left: 10px;font-size: 24px;"><strong><span>Curiosidades PT2 </span></strong></p> <!-- Título do cabeçalho -->
+        </div>
+        
+       <div class="search-container">
+          <input type="text" placeholder="Pesquisar...">
+          <img src="perfil.png" alt="Perfil" class="profile-icon">
+       </div>
+    </header>
+
+    <div class="linha-branca"></div> <!-- Linha branca adicionada -->
+
+    <h1>Curiosidades </h1> <!-- Título movido para a esquerda -->
+
+    <div class="info-container">
+        <div class="info-box">
+            <h3>Superlua</h3>
+            <p>A superlua é um fenômeno que ocorre quando a Lua cheia coincide com o seu ponto mais próximo da Terra, conhecido como perigeu. Esse evento resulta em uma Lua que parece significativamente maior e mais brilhante no céu.</p>
+        </div>
+        
+        <div class="info-box">
+            <h3>Eclipses Lunares e a Cor do Céu</h3>
+            <p>Os eclipses lunares podem fazer com que a Lua adquira uma coloração avermelhada, conhecida como "Lua de Sangue". Isso acontece porque a luz do Sol passa pela atmosfera terrestre e é filtrada, com as ondas de luz azul sendo dispersas e as ondas vermelhas sendo refratadas para a sombra da Terra.</p>
+        </div>
+
+        <div class="info-box">
+            <h3>A Face Oculta da Lua</h3>
+            <p>A Lua sempre mostra a mesma face para a Terra devido ao fenômeno chamado rotação síncrona. Isso significa que, enquanto a Lua gira em torno de seu eixo, ela também orbita a Terra no mesmo período de tempo. Portanto, nunca vemos a parte de trás da Lua a olho nu.</p>
+        </div>
+    </div>
+
+    <div class="next-button-container">
+        <button class="next-button">Próxima Página</button>
+    </div>
+
+</body>
+</html>

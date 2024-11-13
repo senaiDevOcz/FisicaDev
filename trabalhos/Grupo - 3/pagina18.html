@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fases da Lua</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a2053; /* Fundo azul */
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between; /* Espaço entre os elementos */
+            align-items: center; /* Alinha verticalmente os itens no centro */
+            background-color: #161a38; /* Cor de fundo do cabeçalho */
+            padding:  1rem 2rem;; /* Padding do cabeçalho */
+            height: 64px;
+        }
+        .menu-icon {
+    font-size: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transform: translateX(0px);
+    margin-right: -1010px;
+    
+}
+        header .logo {
+            width: 80px; /* Largura do logo */
+            height: auto;
+            margin-left: 125px;
+        }
+        
+        header .search-container {
+            display: flex;
+            align-items: center;
+        }
+        
+        header .profile-icon {
+            width: 40px;
+            height: auto;
+            margin-left: 10px; /* Margem entre o campo de pesquisa e o ícone de perfil */
+        }
+        
+        header input[type="text"] {
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+            margin-left: 10px; /* Margem à esquerda do campo de pesquisa */
+        }
+
+        h1 {
+            text-align: left; /* Alinhado à esquerda */
+            margin-top: 20px; /* Margem acima do título */
+            margin-left: 20px; /* Margem à esquerda */
+        }
+
+        .content {
+            margin: 20px; /* Margem para o conteúdo */
+        }
+
+        p {
+            font-size: 18px; /* Aumentado o tamanho da fonte do parágrafo */
+            line-height: 1.5; /* Espaçamento entre linhas */
+        }
+
+        .question-container {
+            display: flex; /* Usar flexbox para alinhar imagem e texto */
+            align-items: flex-start; /* Alinha o texto e a imagem no topo */
+            margin-bottom: 40px; /* Espaço entre as perguntas */
+        }
+
+        .question-container img {
+            width: 300px; /* Tamanho da imagem */
+            height: auto; 
+            margin-right: 20px; /* Margem à direita da imagem */
+        }
+
+        .next-button-container {
+            position: absolute; /* Fixa o botão na parte inferior direita */
+            bottom: 20px; 
+            right: 20px; /* Alinhado à direita */
+        }
+
+        .next-button {
+            padding: 10px 20px;
+            background-color: #ffffff; /* Cor do botão */
+            color: rgb(0, 0, 0); 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+        }
+
+        .next-button:hover {
+            background-color: #45a049; /* Verde mais escuro ao passar o mouse */
+        }
+
+        .linha-branca {
+            height: 2px; /* Altura da linha */
+            background-color: white; /* Cor da linha */
+            margin-top: -2px; /* Remove a margem entre o cabeçalho e a linha */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="menu-icon">&#9776;</div>
+        <div style="display:flex; align-items:center;"> <!-- Agrupando logo e texto -->
+          <img src="img 1.png" alt="Logo" class="logo">
+          <p style="margin-left: 10px;font-size: 24px;"> <strong><span>Exercício - 4,5 </span></strong></p>
+        </div>
+        
+       <div class="search-container">
+          <input type="text" placeholder="Pesquisar...">
+          <img src="perfil.png" alt="Perfil" class="profile-icon">
+       </div>
+    </header>
+
+    <div class="linha-branca"></div> <!-- Linha branca adicionada -->
+
+    <h1>Fases da Lua</h1> <!-- Título movido para a esquerda -->
+
+    <div class="content">
+        <div class="question-container">
+            <img src="img 5.PNG" alt="Imagem da Lua"> <!-- Substitua 'img5.PNG' pelo caminho correto da sua imagem -->
+            
+            <div>
+                <p>4-) Quanto tempo leva para a Lua completar um ciclo completo de fases?</p>
+                <p>a) 24 dias</p>
+                <p>b) 29,5 dias</p>
+                <p>c) 30 dias</p>
+                <p>d) 27 dias</p>
+            </div>
+        </div>
+
+           <div style="margin-left: 20px;"> <!-- Adicionando margem à esquerda para estética -->
+               <p>5-) As fases da Lua são causadas principalmente por:</p>
+               <p>a) A rotação da Terra.</p>
+               <p>b) A movimentação da Lua ao redor da Terra.</p>
+               <p>c) A variação na luminosidade do Sol.</p>
+               <p>d) A inclinação do eixo da Terra.</p>
+           </div>
+
+    </div>
+
+    <div class="next-button-container">
+        <button class="next-button">Próxima Página</button>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0e6dcb;
+    background-image: url('fundo.PNG'); /* Substitua pelo caminho da sua imagem de fundo */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+ 
+header {
+    display: flex;
+    justify-content: space-between; /* Espaça a logo e os outros itens */
+    align-items: center;
+    background-color: #161a38;
+    color: white; /* Texto em branco */
+    padding: 10px 20px;
+}
+ 
+header img {
+    width: 80px; /* Tamanho da logo */
+    height: auto;
+}
+ 
+header input[type="text"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+}
+ 
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    padding-left: 50px;
+}
+ 
+.form-container {
+    background-color: rgba(22, 26, 56, 0.8); /* Fundo do formulário com opacidade */
+    padding: 30px; /* Aumenta a altura do formulário */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Largura do formulário */
+}
+ 
+.form-container h2 {
+    margin-bottom: 30px;
+    color: white; /* Letras do título em branco */
+}
+ 
+.form-container label {
+    display: block; /* Faz com que o label ocupe toda a largura disponível */
+    margin-bottom: 5px; /* Espaço entre o label e o campo de entrada */
+    color: white; /* Cor do texto do label em branco */
+}
+ 
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="tel"] {
+    width: calc(100% - 20px); /* Ajusta a largura dos campos para caber dentro do formulário */
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+    border: 1px solid #ddd;
+    color: white; /* Texto dos campos em branco */
+    background-color: rgb(255, 255, 255); /* Fundo dos campos com leve transparência para contraste */
+}
+ 
+.form-container button {
+    width: calc(100% - 20px); /* Ajusta a largura do botão para caber dentro do formulário */
+    border-radius: 25px;
+    padding: 10px;
+    background-color: #5f5a87;
+    color: white; /* Letras do botão em branco */
+}
+ 

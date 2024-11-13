@@ -1,0 +1,194 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1a2053;
+    color: #fff;
+    line-height: 1.6;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #161a38;
+    padding: 1rem 2rem;
+}
+
+main {
+    padding: 40px 80px;
+}
+
+.title {
+font-size: 24px;
+color: #FFFFFF;
+margin-right: 940px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.5em;
+}
+
+.menu-icon {
+    font-size: 24px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transform: translateX(0px);
+    margin-right: 0px;
+    
+}
+
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 1.5em;
+    transform: translateX(10px);
+    margin-right: 1030px;
+    
+}
+
+.logo img {
+    height: 60px;
+    margin-right: 5px; 
+}
+
+.sobre {
+    font-size: 24px;
+    color: #FFFFFF;
+    text-align: left;
+}
+.search-bar input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    padding: 10px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    height: 20px;
+    margin-right: 10px;
+    
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+}
+
+.search-container input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-icon {
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-left: 0.5rem;
+    cursor: pointer;
+}
+.container img {
+    max-width:50px;
+    max-height:50px;
+    width: auto;
+    height: auto;
+    display: flex ;
+    margin: 0 auto;
+    
+}
+.image-box img {
+    width: 50%;
+    border-radius: 10px;
+    display: block; 
+    margin: -345px auto 0; 
+}
+
+.canto-inferior-esquerdo {
+    position: absolute; 
+    top: 490px; 
+    left: 0; 
+    padding: 150px;
+    border-radius: 30px; 
+}
+
+.canto-inferior-direito {
+    position: absolute; 
+    top: 500px; 
+    right: 0; 
+    padding: 150px; 
+    border-radius: 60px; 
+
+}
+
+.texto-superior-direito {
+    position: absolute; 
+    top: 200px; 
+    right: 40px; 
+    padding: 50px; 
+}
+
+.meio-pagina {
+    
+    text-align: center;;
+}
+
+.footer-card {
+    display: flex; /* Define o elemento como um contêiner flexível para dispor os itens em linha */
+    justify-content: space-between; /* Distribui os itens com espaços iguais entre eles, alinhando o primeiro e último aos extremos */
+    width: 100%; /* Faz o elemento ocupar 100% da largura do contêiner pai */
+    
+    padding: 90px; /* Adiciona um espaçamento interno de 20px em todos os lados do elemento */
+    
+    font-weight: bold; /* Deixa o texto dentro do elemento em negrito */
+    text-align: center; /* Centraliza horizontalmente o texto dentro do elemento */
+    
+}
+
+ .linha-branca {
+    border-bottom: 2px solid white;
+    width: 1519px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

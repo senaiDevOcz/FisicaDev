@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curiosidades</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #13072e; /* Fundo escuro */
+            color: #fff;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            display: flex;
+            justify-content: space-between; /* Espaço entre os elementos */
+            align-items: center; /* Alinha verticalmente os itens no centro */
+            background-color: #161a38; /* Cor de fundo do cabeçalho */
+            padding:  1rem 2rem;; /* Padding do cabeçalho */
+            height: 64px;
+        }
+
+        .menu-icon {
+            font-size: 24px; /* Tamanho do ícone */
+            color: #FFFFFF; /* Cor do ícone */
+            cursor: pointer; /* Cursor de ponteiro ao passar o mouse */
+            margin-right: 10px; /* Margem à direita do ícone */
+        }
+
+        header .logo {
+            width: 80px; /* Largura do logo */
+            height: auto;
+            margin-left: 15px;
+        }
+        
+        header .search-container {
+            display: flex; /* Flexbox para alinhar a barra de pesquisa e o ícone */
+            align-items: center;
+        }
+        
+        header .profile-icon {
+            width: 40px; /* Largura do ícone de perfil */
+            height: auto;
+            margin-left: 10px; /* Margem entre a barra de pesquisa e o ícone de perfil */
+        }
+        
+        header input[type="text"] {
+            padding: 5px; /* Padding da barra de pesquisa */
+            border-radius: 5px; /* Bordas arredondadas */
+            border: none; /* Sem borda */
+            margin-left: 10px; /* Margem à esquerda do campo de pesquisa */
+        }
+
+        h1 {
+            text-align: left; /* Alinhado à esquerda */
+            margin-top: 20px; /* Margem acima do título */
+            margin-left: 20px; /* Margem à esquerda */
+        }
+
+        .info-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: calc(100vh - 100px); /* Altura ajustada para caber no layout */
+        }
+
+        .info-box {
+            width: 300px; /* Aumentado o tamanho do quadrado */
+            height: 200px; /* Aumentado o tamanho do quadrado */
+            margin: 20px;
+            background: linear-gradient(to bottom, #3f2182, #3f2182, #13072e); /* Gradiente adicionado */
+            border-radius: 10px;
+            padding: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        .info-box:nth-child(odd) {
+            transform: translateY(-20px); /* Move os quadrados ímpares para cima */
+        }
+
+        .info-box:nth-child(even) {
+            transform: translateY(20px); /* Move os quadrados pares para baixo */
+        }
+
+        .info-box h3 {
+            margin-top: 0;
+        }
+
+        .next-button-container {
+            position: absolute; /* Fixa o botão na parte inferior esquerda */
+            bottom: 20px; 
+            left: 20px; 
+        }
+
+        .next-button {
+            padding: 10px 20px;
+            background-color: #ffffff; 
+            color: rgb(0, 0, 0); 
+            border: none; 
+            border-radius: 5px; 
+            cursor: pointer; 
+        }
+
+        .next-button:hover {
+            background-color: #45a049; /* Verde mais escuro ao passar o mouse */
+        }
+
+        .linha-branca {
+            height: 2px; /* Altura da linha */
+            background-color: white; /* Cor da linha */
+            margin-top: -2px; /* Remove a margem entre o cabeçalho e a linha */
+        }
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div style="display:flex; align-items:center;"> <!-- Agrupando menu e logo -->
+          <div class="menu-icon">&#9776;</div> <!-- Ícone de menu -->
+          <img src="img 1.png" alt="Logo" class="logo">
+          <p style="margin-left: 10px;font-size: 24px;"><strong><span>Curiosidades </span></strong></p> <!-- Título do cabeçalho -->
+        </div>
+        
+       <div class="search-container">
+          <input type="text" placeholder="Pesquisar...">
+          <img src="perfil.png" alt="Perfil" class="profile-icon">
+       </div>
+    </header>
+
+    <div class="linha-branca"></div> <!-- Linha branca adicionada -->
+
+    <h1>Curiosidades</h1> <!-- Título movido para a esquerda -->
+
+    <div class="info-container">
+        <div class="info-box">
+            <h3>Eclipses Híbridos</h3>
+            <p>Os eclipses híbridos são um fenômeno raro onde um eclipse solar é visto como total em algumas áreas e como anular em outras. Isso ocorre devido à curvatura da Terra e à variação na distância da Lua em relação ao planeta.</p>
+        </div>
+        
+        <div class="info-box">
+            <h3>Influência nas Marés</h3>
+            <p>As fases da Lua têm um impacto significativo nas marés oceânicas. Durante a Lua Nova e a Lua Cheia, a gravidade combinada da Lua e do Sol resulta em marés altas mais intensas, conhecidas como marés de sizígia.</p>
+        </div>
+
+        <div class="info-box">
+            <h3>Mudança de Temperatura</h3>
+            <p>Durante um eclipse solar total, a temperatura pode cair até 10 graus Celsius em poucos minutos. Esse resfriamento rápido pode causar ventos súbitos e alterar o comportamento dos animais, que frequentemente se tornam agitados ou silenciosos durante o evento.</p>
+        </div>
+    </div>
+
+    <div class="next-button-container">
+        <button class="next-button">Próxima Página</button>
+    </div>
+
+</body>
+</html>
