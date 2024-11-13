@@ -1,0 +1,80 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    background-color: #2d8ba0;
+    display: flex;
+    height: 125px;
+    align-items: center;
+}
+
+header img{
+    width: 65px;
+    padding: 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.imagemHome{
+    display: flex;
+    justify-self: end;
+    height: 550px;
+}
+main img{
+    width: 200px;
+    padding: 20px;
+    padding-bottom: 20px;
+}  
+main{
+    display: flex;
+    justify-content: space-between;
+}
+main p{
+    padding: 135px;
+    padding-bottom: 26px;
+    padding-top: 10px;
+    text-align: justify;
+    font-size: 20pt;
+}
+.button{
+    width: 400px;
+    padding-left: 100px;
+    justify-content: center;
+}
+footer{
+    background-color: #2d8ba0;
+    display: flex;
+    height: 55px;
+    align-items: center;
+    padding-left: 15px;
+} 
+footer img{
+    width: 35px;
+    padding: 5px;
+}
+
+.menu h3{
+    cursor: pointer;
+}
+
+.menu a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.autores{
+    display:flex;
+    flex-direction: column;
+}
+.linha1{
+    display:flex;
+    justify-content: center;
+}
+.linha2{
+    display:flex;
+    justify-content: center;
+}
+h2{
+    padding: 10px;
+}
