@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+   
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #000000;
+  }
+   
+  header {
+    background-color: #2c3e9d;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+   
+  header h1 {
+    font-size: 2.9rem;
+  }
+   
+  .search-profile {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+  }
+   
+  .search-profile input {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+  }
+   
+  .search-profile i {
+    margin-left: 10px;
+    font-size: 1.9rem;
+    color: white;
+  }
+   
+  nav {
+    display: flex;
+    justify-content: center;
+    background-color: #e3e4e6;
+    padding: 10px 0;
+    position: relative;
+  }
+  .mainmenubtn {
+    background-color: skyblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  .mainmenubtn:hover {
+    background-color: blue;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown-child {
+    display: none;
+    position: absolute; /* Isso tira o menu suspenso do fluxo e impede que desalinhe o resto */
+    background-color: skyblue;
+    min-width: 200px;
+    top: 100%; /* Para posicionar o submenu abaixo do botão principal */
+  }
+  .dropdown-child a {
+    color: blue;
+    padding: 10px; /* Diminui o padding para evitar que o menu seja muito espaçado */
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown:hover .dropdown-child {
+    display: block;
+  }
+
+  .formula {
+    display: flex;
+
+  }
